@@ -28,9 +28,17 @@ class PageLogin(Base):
     #截图
     def page_get_screenshot(self):
         self.base_get_image()
+    #判断元素
+    def page_login_element_if_exist(self):
+        return self.base_is_exist(page.login_link)
+    def page_logout_if_exist(self):
+        return self.base_is_exist(page.login_logout)
+    #安全退出
+    def page_logout(self):
+        self.base_click(page.login_logout)
+
     #组合业务方法
     def page_login(self,username,password,code):
-        self.page_click_login_link()
         self.page_input_username(username)
         self.page_input_password(password)
         self.page_input_verify_code(code)

@@ -9,3 +9,4 @@ cal_result = By.CSS_SELECTOR,'#resultIpt'
 cal_clear = By.CSS_SELECTOR,'#simpleClearAllBtn'
 
 
+

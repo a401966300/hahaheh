@@ -25,6 +25,7 @@ class PageCal(CalBase):
     def page_get_image(self):
         self.base_get_image()
 
+
     def page_cal(self,a,b):
         self.page_click_number(a)
         self.page_click_add()

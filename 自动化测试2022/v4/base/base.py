@@ -1,18 +1,16 @@
 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.support.wait import WebDriverWait
+
 
 url = 'http://localhost'
 class Base:
 
     #初始化
-    def __init__(self):
+    def __init__(self,driver):
 
-        self.driver = webdriver.Chrome()
-        self.driver.get(url)
-        self.driver.maximize_window()
+        self.driver = driver
 
     #查找元素方法（提供：点击，输入，获取文本）使用
     def base_find_element(self,loc,timeout=30,poll=0.5):
@@ -32,3 +30,10 @@ class Base:
     #截图方法
     def base_get_image(self):
         self.driver.get_screenshot_as_file('../image/fail_{}.png'.format(time.strftime('%Y-%m-%d %H-%M-%S')))
+    #判断元素是否存在
+    def base_is_exist(self,loc):
+        try:
+            self.base_find_element(loc,timeout=2)
+            return True
+        except:
+            return False
