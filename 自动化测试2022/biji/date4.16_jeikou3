@@ -1,0 +1,57 @@
+                                    接口测试3--项目实战
+
+一.初始化wp项目：
+创建测试集--创建两个模块（登录和管理员）---设置环境变量base_url = http://121.196.13.152:8080
+
+二.测试用例设计
+1.登录模块
+发送请求包括以下四大要素
+请求方法：POST
+请求地址：http://121.196.13.152:8080/admin/auth/login
+请求头：Content-Type:application/json
+请求体：{"username":"admin123","password":"admin123"}   #必须为双引号
+
+断言'errno'=0,nickName=admin123:
+var jsonData = pm.response.json();
+pm.test("Your test name", function () {
+    pm.expect(jsonData.errno).to.eql(0);
+});
+pm.test("Your test name", function () {
+    pm.expect(jsonData.data.adminInfo.nickName).to.eql("admin123");
+});
+
+2.管理员4个接口，增删改查
+添加管理员：
+请求头：Content-Type:application/json，可以在右侧保存这个设置，方便其他请求使用
+token: token值在登陆请求的响应体中生成，可以在登陆请求的test中获取token值,设定一个变量，然后给添加管理员这个请求使用
+var token = JsonData.data.token    # 获取token值并设置变量
+pm.environment.set('token',token)   #将token设置为环境变量
+
+3.删除管理员
+ctrl+d：复制添加管理员模块，改下路径，create-delete
+添加id，首先从添加管理员请求中获取id值，然后将id设置环境变量，然后在删除管理员请求中添加。
+
+4.编辑管理员
+复制模块，路径改为update,在请求体中编辑id和用户名以及密码
+发送请求前先运行添加模块添加一个管理员
+
+5.查询管理员
+从接口文档中复制路径，请求方式改为get，把复制的请求中的请求体给删了，而后运行即可。
+
+运行整个测试集
+
+三.生成测试报告
+导出测试集和变量
+执行测试用例，使用NEWMAN，打开CMD窗口，执行测试用例：
+newman run 测试脚本文件 -e 环境变量文件 -d 测试数据文件 -r html --reporter-html-export report.html
+-r html 后面的内容不填的话，会在当前路径下生成一个NEWMAN文件夹，文件夹中生成测试报告
+-R HTML也不填，那测试报告会在CMD窗口中展示
+注意：运行脚本要在脚本文件的测试路径中运行
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+{
+  "uid" : "8a5a6e3a78c7047",
+  "name" : "test_case08",
+  "fullName" : "test_autouse.Testfixture#test_case08",
+  "historyId" : "fd885d708d33bf1f9346ebad431d7ef5",
+  "time" : {
+    "start" : 1647685262207,
+    "stop" : 1647685262207,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1647685262206,
+      "stop" : 1647685262206,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_autouse"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testfixture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "41080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_autouse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a5a6e3a78c7047.json",
+  "parameterValues" : [ ]
+}

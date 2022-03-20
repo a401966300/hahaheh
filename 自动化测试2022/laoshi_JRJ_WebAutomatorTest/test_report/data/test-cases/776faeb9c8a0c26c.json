@@ -1,0 +1,101 @@
+{
+  "uid" : "776faeb9c8a0c26c",
+  "name" : "test_login_success",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1614001897024,
+    "stop" : 1614001900566,
+    "duration" : 3542
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: get_logout_text() missing 1 required positional argument: 'self'",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x000001A627072208>\nhandler = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"b8cd9253ec0658445fd0690a8510c4d1\")>, <pages.login_page.LoginPage object at 0x000001A6270925C0>)\n\n    def test_login_success(self, handler):\n        handler[1].login(success_data['username'], success_data['password'])\n>       assert LoginPage.get_logout_text()\nE       TypeError: get_logout_text() missing 1 required positional argument: 'self'\n\ncases\\test_login.py:8: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1614001892581,
+      "stop" : 1614001897022,
+      "duration" : 4441
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1614001897022,
+      "stop" : 1614001897022,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1614001900648,
+      "stop" : 1614001904317,
+      "duration" : 3669
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "ruslan"
+  }, {
+    "name" : "thread",
+    "value" : "2296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "776faeb9c8a0c26c.json",
+  "parameterValues" : [ ]
+}

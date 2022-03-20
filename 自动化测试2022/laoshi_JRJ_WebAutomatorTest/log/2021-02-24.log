@@ -1,0 +1,291 @@
+2021-02-24 22:02:15,114 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:02:20,222 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:02:20,224 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:02:20,225 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:02:20,487 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:02:20,488 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:02:20,606 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:02:20,607 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:02:23,597 - root - INFO - 登录操作完成.
+2021-02-24 22:02:26,626 - root - INFO - 等待元素可见共耗时： 0.026929s
+2021-02-24 22:02:26,628 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:02:26,654 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:02:27,172 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\正向用例测试截图-2021-02-24_22_02_26.png
+2021-02-24 22:02:27,178 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-02-24 22:02:27,179 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:02:27,180 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:02:27,333 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-02-24 22:02:27,334 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:02:27,334 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:02:27,405 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-02-24 22:02:27,407 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:02:27,407 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:02:27,482 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2021-02-24 22:02:27,483 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:02:27,483 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:19,877 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:05:25,163 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-02-24 22:05:25,164 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:05:25,165 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:25,229 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:05:25,231 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:05:25,343 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:05:25,344 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:05:25,420 - root - INFO - 登录操作完成.
+2021-02-24 22:05:28,443 - root - INFO - 等待元素可见共耗时： 0.021684s
+2021-02-24 22:05:28,443 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:05:28,864 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码为空截图-2021-02-24_22_05_28.png
+2021-02-24 22:05:28,869 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-02-24 22:05:28,870 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:05:28,870 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:28,936 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:05:28,937 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:05:29,005 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:05:29,006 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:05:29,109 - root - INFO - 登录操作完成.
+2021-02-24 22:05:32,134 - root - INFO - 等待元素可见共耗时： 0.022936s
+2021-02-24 22:05:32,135 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:05:32,576 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码错误截图-2021-02-24_22_05_32.png
+2021-02-24 22:05:32,584 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-02-24 22:05:32,585 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:05:32,585 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:32,661 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:05:32,662 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:05:32,690 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:05:32,690 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:05:32,764 - root - INFO - 登录操作完成.
+2021-02-24 22:05:35,783 - root - INFO - 等待元素可见共耗时： 0.018949s
+2021-02-24 22:05:35,784 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:05:36,212 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码为空截图-2021-02-24_22_05_35.png
+2021-02-24 22:05:36,219 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2021-02-24 22:05:36,220 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:05:36,221 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:36,327 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:05:36,328 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:05:36,409 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:05:36,410 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:05:36,465 - root - INFO - 登录操作完成.
+2021-02-24 22:05:39,480 - root - INFO - 等待元素可见共耗时： 0.013519s
+2021-02-24 22:05:39,480 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:05:39,899 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码错误截图-2021-02-24_22_05_39.png
+2021-02-24 22:05:39,904 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:05:39,905 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:05:39,906 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:05:39,990 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:05:39,991 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:05:40,067 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:05:40,068 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:05:40,121 - root - INFO - 登录操作完成.
+2021-02-24 22:06:03,418 - root - ERROR - Message: 
+
+2021-02-24 22:06:03,418 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:11:36,254 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:11:44,869 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-02-24 22:11:44,870 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:11:44,870 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:11:44,929 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:11:44,930 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:11:45,063 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:11:45,064 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:11:45,130 - root - INFO - 登录操作完成.
+2021-02-24 22:11:48,151 - root - INFO - 等待元素可见共耗时： 0.018952s
+2021-02-24 22:11:48,152 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:11:48,559 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码为空截图-2021-02-24_22_11_48.png
+2021-02-24 22:11:51,581 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-02-24 22:11:51,582 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:11:51,582 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:11:51,646 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:11:51,647 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:11:51,732 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:11:51,733 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:11:51,819 - root - INFO - 登录操作完成.
+2021-02-24 22:11:54,842 - root - INFO - 等待元素可见共耗时： 0.021719s
+2021-02-24 22:11:54,843 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:11:55,242 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码错误截图-2021-02-24_22_11_54.png
+2021-02-24 22:11:58,258 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-02-24 22:11:58,259 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:11:58,259 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:11:58,341 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:11:58,342 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:11:58,381 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:11:58,382 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:11:58,448 - root - INFO - 登录操作完成.
+2021-02-24 22:12:01,468 - root - INFO - 等待元素可见共耗时： 0.01795s
+2021-02-24 22:12:01,468 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:12:01,878 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码为空截图-2021-02-24_22_12_01.png
+2021-02-24 22:12:04,893 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2021-02-24 22:12:04,894 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:12:04,895 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:12:05,007 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:12:05,007 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:12:05,074 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:12:05,075 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:12:05,172 - root - INFO - 登录操作完成.
+2021-02-24 22:12:08,195 - root - INFO - 等待元素可见共耗时： 0.020902s
+2021-02-24 22:12:08,196 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:12:08,608 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\账号或密码错误截图-2021-02-24_22_12_08.png
+2021-02-24 22:12:11,622 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:12:11,623 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:12:11,623 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:12:11,729 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:12:11,730 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:12:11,835 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:12:11,836 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:12:15,110 - root - INFO - 登录操作完成.
+2021-02-24 22:12:18,134 - root - INFO - 等待元素可见共耗时： 0.021942s
+2021-02-24 22:12:18,134 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:12:18,156 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:12:18,641 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\log\正向用例测试截图-2021-02-24_22_12_18.png
+2021-02-24 22:14:02,658 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:14:10,523 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-02-24 22:14:10,524 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:14:10,524 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:14:10,562 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:14:10,565 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:14:10,657 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:14:10,658 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:14:10,712 - root - INFO - 登录操作完成.
+2021-02-24 22:14:13,732 - root - INFO - 等待元素可见共耗时： 0.018619s
+2021-02-24 22:14:13,732 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:14:14,174 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码为空截图-2021-02-24_22_14_13.png
+2021-02-24 22:14:17,290 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-02-24 22:14:17,291 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:14:17,292 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:14:17,344 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:14:17,344 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:14:17,452 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:14:17,453 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:14:17,537 - root - INFO - 登录操作完成.
+2021-02-24 22:14:20,582 - root - INFO - 等待元素可见共耗时： 0.041887s
+2021-02-24 22:14:20,583 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:14:20,999 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码错误截图-2021-02-24_22_14_20.png
+2021-02-24 22:14:24,012 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-02-24 22:14:24,012 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:14:24,013 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:14:24,091 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:14:24,092 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:14:24,128 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:14:24,129 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:14:24,191 - root - INFO - 登录操作完成.
+2021-02-24 22:14:27,207 - root - INFO - 等待元素可见共耗时： 0.014633s
+2021-02-24 22:14:27,207 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:14:27,618 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码为空截图-2021-02-24_22_14_27.png
+2021-02-24 22:14:30,765 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2021-02-24 22:14:30,766 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:14:30,767 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:14:30,862 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:14:30,863 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:14:30,943 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:14:30,944 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:14:31,038 - root - INFO - 登录操作完成.
+2021-02-24 22:14:34,055 - root - INFO - 等待元素可见共耗时： 0.014922s
+2021-02-24 22:14:34,055 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:14:34,465 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码错误截图-2021-02-24_22_14_34.png
+2021-02-24 22:14:37,480 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:14:37,480 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:14:37,481 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:14:37,573 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:14:37,573 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:14:37,658 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:14:37,659 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:14:40,567 - root - INFO - 登录操作完成.
+2021-02-24 22:14:43,591 - root - INFO - 等待元素可见共耗时： 0.021897s
+2021-02-24 22:14:43,592 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:14:43,612 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:14:44,133 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\正向用例测试截图-2021-02-24_22_14_43.png
+2021-02-24 22:19:56,870 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:20:05,266 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:20:05,266 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:20:05,267 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:20:05,375 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:20:05,376 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:20:05,458 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:20:05,459 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:20:09,666 - root - INFO - 登录操作完成.
+2021-02-24 22:20:12,694 - root - INFO - 等待元素可见共耗时： 0.025937s
+2021-02-24 22:20:12,694 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:20:12,723 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:20:13,236 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\正向用例测试截图-2021-02-24_22_20_12.png
+2021-02-24 22:24:47,858 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:24:55,985 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:24:55,986 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:24:55,986 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:24:56,111 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:24:56,111 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:24:56,212 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:24:56,213 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:24:59,406 - root - INFO - 登录操作完成.
+2021-02-24 22:25:02,438 - root - INFO - 等待元素可见共耗时： 0.030918s
+2021-02-24 22:25:02,439 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:25:02,465 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:25:03,014 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\正向用例测试截图-2021-02-24_22_25_02.png
+2021-02-24 22:33:44,506 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:33:52,665 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:33:52,665 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:33:52,666 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:33:52,795 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:33:52,795 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:33:52,891 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:33:52,891 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:33:56,179 - root - INFO - 登录操作完成.
+2021-02-24 22:33:59,205 - root - INFO - 等待元素可见共耗时： 0.023938s
+2021-02-24 22:33:59,205 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:33:59,236 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:33:59,719 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\正向用例测试截图-2021-02-24_22_33_59.png
+2021-02-24 22:36:31,981 - root - INFO - ========= 开始执行测试用例 =========
+2021-02-24 22:36:39,715 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2021-02-24 22:36:39,715 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:36:39,716 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:36:39,759 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:36:39,761 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:36:39,850 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:36:39,851 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:36:39,907 - root - INFO - 登录操作完成.
+2021-02-24 22:36:42,929 - root - INFO - 等待元素可见共耗时： 0.020608s
+2021-02-24 22:36:42,929 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:36:43,338 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码为空截图-2021-02-24_22_36_42.png
+2021-02-24 22:36:46,355 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2021-02-24 22:36:46,357 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:36:46,357 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:36:46,414 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:36:46,414 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:36:46,519 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:36:46,519 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:36:46,595 - root - INFO - 登录操作完成.
+2021-02-24 22:36:49,615 - root - INFO - 等待元素可见共耗时： 0.018951s
+2021-02-24 22:36:49,616 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:36:50,063 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码错误截图-2021-02-24_22_36_49.png
+2021-02-24 22:36:53,267 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2021-02-24 22:36:53,267 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:36:53,268 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:36:53,362 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:36:53,363 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:36:53,397 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:36:53,398 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:36:53,465 - root - INFO - 登录操作完成.
+2021-02-24 22:36:56,485 - root - INFO - 等待元素可见共耗时： 0.018952s
+2021-02-24 22:36:56,486 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2021-02-24 22:36:56,898 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码为空截图-2021-02-24_22_36_56.png
+2021-02-24 22:37:00,183 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2021-02-24 22:37:00,183 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:37:00,184 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:37:00,284 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:37:00,285 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:37:00,353 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:37:00,354 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:37:00,456 - root - INFO - 登录操作完成.
+2021-02-24 22:37:03,476 - root - INFO - 等待元素可见共耗时： 0.019643s
+2021-02-24 22:37:03,477 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2021-02-24 22:37:03,888 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\账号或密码错误截图-2021-02-24_22_37_03.png
+2021-02-24 22:37:06,905 - root - INFO - ========= 开始执行正向用例 =========
+2021-02-24 22:37:06,905 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2021-02-24 22:37:06,906 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2021-02-24 22:37:07,002 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2021-02-24 22:37:07,002 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2021-02-24 22:37:07,088 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2021-02-24 22:37:07,089 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2021-02-24 22:37:10,022 - root - INFO - 登录操作完成.
+2021-02-24 22:37:13,067 - root - INFO - 等待元素可见共耗时： 0.04189s
+2021-02-24 22:37:13,067 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2021-02-24 22:37:13,119 - root - INFO - ======== 正向用例测试通过 =========
+2021-02-24 22:37:13,670 - root - INFO - 截图成功，图片保存路径为：E:\pythonProject\JRJ_WebAutomatorTest\img\正向用例测试截图-2021-02-24_22_37_13.png

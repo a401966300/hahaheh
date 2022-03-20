@@ -1,0 +1,66 @@
+2022-03-20 18:48:59,975 - root - INFO - ========= 开始执行测试用例 =========
+2022-03-20 18:49:19,111 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2022-03-20 18:49:19,112 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 18:49:19,112 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 18:49:19,176 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 18:49:19,176 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 18:49:19,247 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 18:49:19,248 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 18:49:19,298 - root - INFO - 登录操作完成.
+2022-03-20 18:49:22,316 - root - INFO - 等待元素可见共耗时： 0.017643s
+2022-03-20 18:49:22,316 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2022-03-20 18:49:22,724 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\laoshi_JRJ_WebAutomatorTest\img\账号或密码为空截图-2022-03-20_18_49_22.png
+2022-03-20 18:49:25,737 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名错误
+2022-03-20 18:49:25,737 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 18:49:25,738 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 18:49:25,785 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 18:49:25,786 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 18:49:25,837 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 18:49:25,838 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 18:49:25,934 - root - INFO - 登录操作完成.
+2022-03-20 18:49:28,952 - root - INFO - 等待元素可见共耗时： 0.016814s
+2022-03-20 18:49:28,953 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2022-03-20 18:49:29,334 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\laoshi_JRJ_WebAutomatorTest\img\账号或密码错误截图-2022-03-20_18_49_28.png
+2022-03-20 18:49:32,344 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码为空
+2022-03-20 18:49:32,344 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 18:49:32,345 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 18:49:32,407 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 18:49:32,408 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 18:49:32,440 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 18:49:32,441 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 18:49:32,491 - root - INFO - 登录操作完成.
+2022-03-20 18:49:35,508 - root - INFO - 等待元素可见共耗时： 0.016417s
+2022-03-20 18:49:35,508 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[1]/span')
+2022-03-20 18:49:35,895 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\laoshi_JRJ_WebAutomatorTest\img\账号或密码为空截图-2022-03-20_18_49_35.png
+2022-03-20 18:49:38,916 - root - INFO - 开始执行反向测试用例：登录-反向用例-密码错误
+2022-03-20 18:49:38,917 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 18:49:38,917 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 18:49:38,991 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 18:49:38,991 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 18:49:39,046 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 18:49:39,046 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 18:49:39,143 - root - INFO - 登录操作完成.
+2022-03-20 18:49:42,161 - root - INFO - 等待元素可见共耗时： 0.016522s
+2022-03-20 18:49:42,161 - root - INFO - 开始查找页面元素：('xpath', '/html/body/div[2]/div/div/form/div[2]/span')
+2022-03-20 18:49:42,546 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\laoshi_JRJ_WebAutomatorTest\img\账号或密码错误截图-2022-03-20_18_49_42.png
+2022-03-20 18:49:45,558 - root - INFO - ========= 开始执行正向用例 =========
+2022-03-20 18:49:45,558 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 18:49:45,559 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 18:49:45,634 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 18:49:45,634 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 18:49:45,696 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 18:49:45,696 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 18:49:48,955 - root - INFO - 登录操作完成.
+2022-03-20 18:49:51,975 - root - INFO - 等待元素可见共耗时： 0.018441s
+2022-03-20 18:49:51,975 - root - INFO - 开始查找页面元素：('xpath', '//*[@id="logout_ok"]')
+2022-03-20 18:49:51,994 - root - INFO - ======== 正向用例测试通过 =========
+2022-03-20 18:49:52,289 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\laoshi_JRJ_WebAutomatorTest\img\正向用例测试截图-2022-03-20_18_49_51.png
+2022-03-20 23:39:44,047 - root - INFO - ========= 开始执行测试用例 =========
+2022-03-20 23:39:56,271 - root - INFO - 开始执行反向测试用例：登录-反向用例-用户名为空
+2022-03-20 23:39:56,272 - root - INFO - 开始向页面元素发送数据： ('id', 'txtUsername')
+2022-03-20 23:39:56,272 - root - INFO - 开始查找页面元素：('id', 'txtUsername')
+2022-03-20 23:39:56,341 - root - INFO - 开始向页面元素发送数据： ('id', 'txtPassword')
+2022-03-20 23:39:56,342 - root - INFO - 开始查找页面元素：('id', 'txtPassword')
+2022-03-20 23:39:56,415 - root - INFO - 开始点击页面元素： ('class name', 'sso-btn-login')
+2022-03-20 23:39:56,415 - root - INFO - 开始查找页面元素：('class name', 'sso-btn-login')
+2022-03-20 23:39:56,474 - root - INFO - 登录操作完成.

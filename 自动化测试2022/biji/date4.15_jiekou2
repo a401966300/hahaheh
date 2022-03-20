@@ -1,0 +1,77 @@
+                                    接口测试2
+ POSTMAN高级功能介绍：
+
+ form data 和X-www-form-urlencoded
+ 二者都可以传表单，但是form data 可以传图片
+ 1.用例集合
+ 创建测试集---创建目录---添加请求，也就是测试系统，模块，测试用例的划分
+ 实现步骤：
+ create a new collection--创建好后右键选择add folder---add request
+ ==================================================================================
+ 2.断言操作
+ 在TESTS中写断言代码，断言脚本会在请求发送后执行，结果会在test result中显示，postman中内置了很多断言代码，只需要在TEST右侧选择想要的代码即可。
+ 5种常见断言：
+1） status code is 200
+    判断响应状态码是否等于200
+pm.test("Status code is 200", function () {   #"Status code is 200"可以自己定义内容
+    pm.response.to.have.status(200);      # status(200):匹配响应的状态码是否为200
+
+2）response body: contains string
+    判断响应体中是否包含指定的字符串
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("string_you_want_to_search");     #括号内输入一个字符串
+
+3）response body:  json value check
+    检查响应的json数据
+    pm.expect(jsonData.value).to.eql(100);
+    检查错误数据： pm.expect(jsonData.error).to.eql(100);
+#json value check这种断言最常见，Json.Data.(输入一个键)，eql(输入一个键值)
+4) response body:  is equal to a string
+    响应体中等于字符串
+pm.test("Body is correct", function () {
+    pm.response.to.have.body("response_body_string");   #括号内必须是返回数据中完整的字符串
+    这种断言只适合在响应返回的数据是一个单独的字符串时使用，比如 'hello'
+
+5）response headers: contents type check
+    响应头 contents type 检查
+    pm.test("Content-Type is present", function () {
+    pm.response.to.have.header("Content-Type");
+#改content-type即可
+===============================================================================
+3.全局变量和环境变量
+概念：全局变量可以作用于整个postman,环境变量运用范围只在某个环境中有效，一个环境中可以有多个环境变量。
+设置变量操作：
+右上角--manager environment--- add
+获取变量值：
+（1）请求参数获取：{var_name}
+(2) 代码中获取：从右侧代码中选择get XX value
+===============================================================================
+4.接口关联
+请求之间有依赖关系，当一个请求当输入是另一个请求返回当数据时，就需要用到关联处理。
+实现思路：
+从第一个接口获取返回数据，将结果保存到变量，第二接口使用
+    var JsonData = pm.response.json()    #获取变量值
+    var city = JsonData.weatherinfo.city     #设置变量值
+    pm.environment.set('city',city)          #保存结果到变量
+第二个接口使用：
+    {city}
+5.批量执行用例
+将要测试到接口请求放到测试集中，然后点击测试集，右边弹窗点击run，点击runXX即可
+====================================================================================
+6.生成测试报告
+（1）安装nodejs,nodejs是一种语言，安装后输入node -v验证
+（2）安装newman, 可以运行postman脚本，npm install -g newman
+（3）安装生成测试报告的插件：npm install -g newman-reporter-html
+
+
+
+
+
+
+
+
+今日练习：
+1.练习添加测试集以及保存请求的操作。
+2.练习5中常见断言设置操作
+3.设置全局变量和环境变量
+4.练习接口关联

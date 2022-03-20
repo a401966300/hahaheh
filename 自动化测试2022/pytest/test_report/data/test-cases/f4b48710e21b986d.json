@@ -1,0 +1,59 @@
+{
+  "uid" : "f4b48710e21b986d",
+  "name" : "test_case01",
+  "fullName" : "test_add#test_case01",
+  "historyId" : "573501613aa7db34e8effb514815f42b",
+  "time" : {
+    "start" : 1647685262174,
+    "stop" : 1647685262174,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 8 == 4\n +  where 8 = add(3, 5)",
+  "statusTrace" : "@pytest.mark.run(order=2)     #标记，-m加标记名称smoke.last，最后一个运行,run(num)设置执行顺序\n    def test_case01():\n        print('============ test_case01 =========')\n>       assert  add(3,5) == 4   #assert 断言语句，判断数据测试结果是否正确,成功的话返回值会显示一个点，失败会显示一个F\nE       assert 8 == 4\nE        +  where 8 = add(3, 5)\n\ntest_add.py:10: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "41080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "f4b48710e21b986d.json",
+  "parameterValues" : [ ]
+}

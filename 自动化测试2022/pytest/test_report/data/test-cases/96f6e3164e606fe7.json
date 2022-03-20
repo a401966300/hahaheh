@@ -1,0 +1,59 @@
+{
+  "uid" : "96f6e3164e606fe7",
+  "name" : "test_case07",
+  "fullName" : "test_scope.Testfixturqq#test_case07",
+  "historyId" : "4a4d0509795d610eb80d09a965095b69",
+  "time" : {
+    "start" : 1647685262300,
+    "stop" : 1647685262300,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_scope.Testfixturqq object at 0x00000217A608FCC0>\n\n    def test_case07(self):\n        print('=========test_case07 ======')\n>       assert False\nE       assert False\n\ntest_scope.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_scope"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testfixturqq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "41080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scope"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "96f6e3164e606fe7.json",
+  "parameterValues" : [ ]
+}

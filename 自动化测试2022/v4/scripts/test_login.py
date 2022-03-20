@@ -1,10 +1,12 @@
 import unittest
 from v4.page.page_login import PageLogin
-from selenium import webdriver
 from v4.base.get_driver import GetDriver
 from v4.tool.read_json import read_json
 import time
 from parameterized import parameterized
+from v4.logg.log_fengzhuang import GetLog
+
+logger = GetLog().get_logger()
 
 def get_data():
     arrs = []
@@ -41,11 +43,12 @@ class TestLogin(unittest.TestCase):
             except:
                 self.login.page_get_screenshot()
         else:
-            print('从这里开始')
+            #print('从这里开始')
             self.msg = self.login.page_get_error_info()
             try:
                 self.assertEqual(self.msg,err_info)
-            except AssertionError:
+            except Exception as e:
+                logger.error(f'发生错误：{self.msg} != {err_info}')
                 self.login.page_get_screenshot()
             # 点击异常提示框确定按钮
             self.login.page_click_err_btn_ok()

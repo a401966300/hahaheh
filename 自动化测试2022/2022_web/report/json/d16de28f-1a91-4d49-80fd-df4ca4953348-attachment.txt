@@ -1,0 +1,15 @@
+INFO     2022_web:conftest.py:12 准备启动浏览器
+INFO     2022_web:conftest.py:16 已经打开测试页面
+INFO     2022_web:base.py:23 开始向页面元素:用户名输入框发送数据财友2sna6763
+INFO     2022_web:base.py:13 开始查找页面元素:
+INFO     2022_web:base.py:23 开始向页面元素:密码输入框发送数据财友2sna6763
+INFO     2022_web:base.py:13 开始查找页面元素:
+INFO     2022_web:base.py:19 开始点击页面元素:登录按钮
+INFO     2022_web:base.py:13 开始查找页面元素:
+INFO     2022_web:base.py:33 正在登录页面,等待:5s
+INFO     2022_web:base.py:29 获取页面元素文本
+INFO     2022_web:base.py:13 开始查找页面元素:
+ERROR    2022_web:base.py:16 查找页面元素失败:Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="logout_ok"]"}
+  (Session info: chrome=96.0.4664.110)
+INFO     2022_web:conftest.py:20 
+金融界WEB自动化测试结束

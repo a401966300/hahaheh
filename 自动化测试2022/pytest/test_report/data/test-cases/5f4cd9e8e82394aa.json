@@ -1,0 +1,62 @@
+{
+  "uid" : "5f4cd9e8e82394aa",
+  "name" : "test_case02",
+  "fullName" : "test_add.TestAdd#test_case02",
+  "historyId" : "f08b4adde48282a4b98c29f1bf00e248",
+  "time" : {
+    "start" : 1647685262196,
+    "stop" : 1647685262196,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10 == 11\n +  where 10 = add(5, 5)",
+  "statusTrace" : "self = <test_add.TestAdd object at 0x00000217A6021550>\n\n    @pytest.mark.run(order=3)\n    def test_case02(self):\n        print('=========test_case02 ======')\n>       assert add(5,5) == 11\nE       assert 10 == 11\nE        +  where 10 = add(5, 5)\n\ntest_add.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "41080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "5f4cd9e8e82394aa.json",
+  "parameterValues" : [ ]
+}

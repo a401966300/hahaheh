@@ -1,0 +1,6 @@
+INFO     root:get_log.py:28 开始执行反向测试用例：登录-反向用例-密码为空
+INFO     root:get_log.py:28 开始向页面元素发送数据： ('id', 'txtUsername')
+INFO     root:get_log.py:28 开始查找页面元素：('id', 'txtUsername')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:8328/session/607456323105662884620a3a33425208/element {"using": "id", "value": "txtUsername", "sessionId": "607456323105662884620a3a33425208"}
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:8328 "POST /session/607456323105662884620a3a33425208/element HTTP/1.1" 200 337
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

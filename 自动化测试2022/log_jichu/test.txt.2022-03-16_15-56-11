@@ -1,0 +1,2 @@
+2022-03-16 15:56:11,165 -ERROR -log_fengzhuang.py [<module>:38] -this is error--错误
+2022-03-16 15:56:11,169 -CRITICAL -log_fengzhuang.py [<module>:39] -this is critical

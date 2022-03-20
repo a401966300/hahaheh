@@ -1,0 +1,56 @@
+{
+  "uid" : "28cf9ab41ceb6253",
+  "name" : "test_case11[4-3]",
+  "fullName" : "test_parametrize#test_case11",
+  "historyId" : "8b4731423fb0f97eaf7429473cd6440a",
+  "time" : {
+    "start" : 1647685262271,
+    "stop" : 1647685262271,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "41080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "4"
+  }, {
+    "name" : "y",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28cf9ab41ceb6253.json",
+  "parameterValues" : [ "4", "3" ]
+}

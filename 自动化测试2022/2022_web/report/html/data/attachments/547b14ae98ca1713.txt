@@ -1,0 +1,4 @@
+INFO     2022_web:conftest.py:12 准备启动浏览器
+INFO     2022_web:conftest.py:16 已经打开测试页面
+INFO     2022_web:conftest.py:20 
+金融界WEB自动化测试结束

@@ -1,0 +1,35 @@
+'''      持续集成之jenkins 构建
+1.完成github,pycharm 之间相互上传代码文件当练习
+pycharm上传代码到github：
+(1)第一次上传点击vcs --import into version control--share project on github
+(2)代码上传：git add---git commit（填写备注信息）---git push
+github下载项目到pycharm:
+pull
+2.当pull代码遇到冲突时，首先点击vcs当update project，然后再继续其他操作
+
+===========
+3.  jenkins介绍
+最流行的持续集成工具
+启动jenkins:
+ 1.下载jenkins.war,在下载的所在路径用cmd运行，然后在cmd窗口输入java -jar jenkins.war启动
+ 2.在浏览器输入localhost:8080
+ 3.账号登陆，admin,123456
+ 4.安装HTML PUBLISHER插件（显示报告）：
+ 选择manger plugins
+ 从可选插件中安装插件HTML PUBLISHER
+ 5.构建任务
+ 1.从pycharm提交web_auto项目到github上
+ 2.新建任务，自由风格项目
+ 3.配置：源码管理--git，地址--git项目的https地址
+ 4.增加构建步骤--python gen_test_report.py
+ 5.增加构建后步骤--publisher HTML report:
+ HTML directory to archive:./
+ index page :test_report.html
+ 6.保存
+ 7.点击build now,开始运行整个流程
+ =========
+ 解决HTML报告样式无法显示问题
+ 在cmd窗口输入：在钉钉4月2号的聊天记录中复制
+ 然后重新运行项目，查看HTML报告
+
+

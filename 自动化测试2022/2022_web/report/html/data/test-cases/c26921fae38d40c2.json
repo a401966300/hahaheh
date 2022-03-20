@@ -1,0 +1,104 @@
+{
+  "uid" : "c26921fae38d40c2",
+  "name" : "test_login_sucess",
+  "fullName" : "testcase.test_login.TesttLogin#test_login_sucess",
+  "historyId" : "b92c15650b11611da4ad3585a44c42c5",
+  "time" : {
+    "start" : 1647791169514,
+    "stop" : 1647791169514,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'function' object has no attribute 'info'",
+  "statusTrace" : "self = <testcase.test_login.TesttLogin object at 0x000001E6E45040B8>\nhandle = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"251706f11b2b639c33423999e074682d\")>, <pages.login_page.LoginPage object at 0x000001E6E44EB940>)\n\n    def test_login_sucess(self,handle):\n    \n>       handle[1].login(success_data['username'],success_data['password'])\n\ntestcase\\test_login.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\login_page.py:6: in login\n    self.send_data(LoginLocator.username_loc,username,'用户名输入框')\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.login_page.LoginPage object at 0x000001E6E44EB940>\nloc = ('id', 'txtUsername'), data = '财友2sna6763', msg = '用户名输入框'\n\n    def send_data(self,loc,data,msg = ''):\n>       logger.info(f'开始向页面元素:{msg}发送数据{data}')\nE       AttributeError: 'function' object has no attribute 'info'\n\ncommon\\bases\\base.py:23: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handle",
+    "time" : {
+      "start" : 1647791166875,
+      "stop" : 1647791169513,
+      "duration" : 2638
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'function' object has no attribute 'info'",
+    "statusTrace" : "self = <testcase.test_login.TesttLogin object at 0x000001E6E45040B8>\nhandle = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"251706f11b2b639c33423999e074682d\")>, <pages.login_page.LoginPage object at 0x000001E6E44EB940>)\n\n    def test_login_sucess(self,handle):\n    \n>       handle[1].login(success_data['username'],success_data['password'])\n\ntestcase\\test_login.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\login_page.py:6: in login\n    self.send_data(LoginLocator.username_loc,username,'用户名输入框')\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.login_page.LoginPage object at 0x000001E6E44EB940>\nloc = ('id', 'txtUsername'), data = '财友2sna6763', msg = '用户名输入框'\n\n    def send_data(self,loc,data,msg = ''):\n>       logger.info(f'开始向页面元素:{msg}发送数据{data}')\nE       AttributeError: 'function' object has no attribute 'info'\n\ncommon\\bases\\base.py:23: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "547b14ae98ca1713",
+      "name" : "log",
+      "source" : "547b14ae98ca1713.txt",
+      "type" : "text/plain",
+      "size" : 180
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "handle::0",
+    "time" : {
+      "start" : 1647791169542,
+      "stop" : 1647791171761,
+      "duration" : 2219
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TesttLogin"
+  }, {
+    "name" : "host",
+    "value" : "WIN-N5AGDL06G55"
+  }, {
+    "name" : "thread",
+    "value" : "79192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26921fae38d40c2.json",
+  "parameterValues" : [ ]
+}

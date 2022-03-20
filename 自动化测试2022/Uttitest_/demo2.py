@@ -9,10 +9,11 @@ def Suite():
     # suite.addTest(Test01('test_add'))
     # suite.addTest(Test01('test_add_01'))
     suite.addTest(unittest.makeSuite(Test02))
-    # 执行测试套件
+    # 执行测试套件logger
     runner = unittest.TextTestRunner()
     runner.run(suite)
 #Suite()
+
 
 
 # python自带的assert

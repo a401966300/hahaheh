@@ -1,0 +1,103 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 8 == 4\n +  where 8 = add(3, 5)",
+      "children" : [ {
+        "name" : "test_case01",
+        "uid" : "f4b48710e21b986d",
+        "parentUid" : "7f520aa995eecca5348fc55f8d156ca9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262174,
+          "stop" : 1647685262174,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f520aa995eecca5348fc55f8d156ca9"
+    }, {
+      "name" : "AssertionError: assert 10 == 11\n +  where 10 = add(5, 5)",
+      "children" : [ {
+        "name" : "test_case02",
+        "uid" : "5f4cd9e8e82394aa",
+        "parentUid" : "8a6e844a802624e371ea61fb537ba7d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262196,
+          "stop" : 1647685262196,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a6e844a802624e371ea61fb537ba7d8"
+    }, {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "test_case09",
+        "uid" : "63c448b68243cef6",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262209,
+          "stop" : 1647685262209,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case05",
+        "uid" : "a63599bfa9e1fc09",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262217,
+          "stop" : 1647685262217,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case07",
+        "uid" : "96f6e3164e606fe7",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262300,
+          "stop" : 1647685262300,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    }, {
+      "name" : "AssertionError: assert 'tom' == 'chen'\n  - chen\n  + tom",
+      "children" : [ {
+        "name" : "test_multi_param[tom]",
+        "uid" : "5001d2c1035a23d1",
+        "parentUid" : "01642f56fede10a377420091bca8f381",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647685262222,
+          "stop" : 1647685262248,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tom'" ]
+      } ],
+      "uid" : "01642f56fede10a377420091bca8f381"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
